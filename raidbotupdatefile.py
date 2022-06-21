@@ -13,37 +13,25 @@ print('\033[31m')
 print('\033[30m')
 os.system("cls")
 
-# -------------------------------------------------------------------
-#                              UPDATE
-# -------------------------------------------------------------------
 
-print(f"{Fore.RED}Comprobando si hay actualizaciones...")
-updater.update(Path(__file__).stem)
-os.system("cls")
 
 # -------------------------------------------------------------------
-#                              PROGRAM
+#                          LOGO AND USAGE
 # -------------------------------------------------------------------
 
 # Title
 ctypes.windll.kernel32.SetConsoleTitleW(
     f"Raid Bot | By Mega and ZX")
 
-logo = LOGO_HERE
+LOGO_AND_USAGE_HERE
 
-usage = f"""
-                                      _____                        __       
-                                     / ___/__  __ _  ___ ____  ___/ /__  ___
-                                    / /__/ _ \/  ' \/ _ `/ _ \/ _  / _ \(_-<
-                                    \___/\___/_/_/_/\_,_/_//_/\_,_/\___/___/
-                                        
-{Fore.RED}------------------------------------------------------------------------------------------------------------------------
-  
-  {Fore.RESET}[{Fore.RED}1{Fore.RESET}] {Fore.GREEN}&delc {Fore.RED}|{Fore.RESET} Borra todos los canales
-  {Fore.RESET}[{Fore.RED}2{Fore.RESET}] {Fore.GREEN}&spam {Fore.MAGENTA}(mensaje) (cantidad) {Fore.RED}|{Fore.RESET} Spamea el mensaje introducido en todos los canales
-  {Fore.RESET}[{Fore.RED}3{Fore.RESET}] {Fore.GREEN}&cc {Fore.MAGENTA}(nombre) (cantidad) {Fore.RED}|{Fore.RESET} Crea tantos canales como introducidos con el nombre introducido
-  {Fore.RESET}[{Fore.RED}4{Fore.RESET}] {Fore.GREEN}&nuke {Fore.MAGENTA}(nombre) (cantidad) (mensaje) {Fore.RED}|{Fore.RESET} Usa todos los comandos
-"""
+# -------------------------------------------------------------------
+#                              UPDATE
+# -------------------------------------------------------------------
+
+print(f"{Fore.RED}Comprobando si hay actualizaciones...")
+updater.update(Path(__file__).stem, logo)
+os.system("cls")
 
 print(logo + usage + Fore.RESET)
 
