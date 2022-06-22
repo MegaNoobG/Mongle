@@ -23,7 +23,7 @@ os.system("cls")
 ctypes.windll.kernel32.SetConsoleTitleW(
     f"Raid Bot | By Mega and ZX")
 
-LOGO_AND_USAGE_HERE
+logousage = f"""LOGO_AND_USAGE_HERE"""
 
 # -------------------------------------------------------------------
 #                              UPDATE
