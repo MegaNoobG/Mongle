@@ -23,7 +23,27 @@ os.system("cls")
 ctypes.windll.kernel32.SetConsoleTitleW(
     f"Raid Bot | By Mega and ZX")
 
-logousage = f"""LOGO_AND_USAGE_HERE"""
+logousage = f"""{Fore.RED}
+
+                                    _____________________________________________________
+                                    ___  __ \__    |___  _/__  __ \__  __ )_  __ \__  __/
+                                    __  /_/ /_  /| |__  / __  / / /_  __  |  / / /_  /   
+                                    _  _, _/_  ___ |_/ /  _  /_/ /_  /_/ // /_/ /_  /    
+                                    /_/ |_| /_/  |_/___/  /_____/ /_____/ \____/ /_/     
+                                                                                        
+                                                                        {Fore.RESET}by Mega and ZX
+                                      _____                        __       
+                                     / ___/__  __ _  ___ ____  ___/ /__  ___
+                                    / /__/ _ \/  ' \/ _ `/ _ \/ _  / _ \(_-<
+                                    \___/\___/_/_/_/\_,_/_//_/\_,_/\___/___/
+                                        
+{Fore.RED}------------------------------------------------------------------------------------------------------------------------
+  
+  {Fore.RESET}[{Fore.RED}1{Fore.RESET}] {Fore.GREEN}&delc {Fore.RED}|{Fore.RESET} Borra todos los canales
+  {Fore.RESET}[{Fore.RED}2{Fore.RESET}] {Fore.GREEN}&spam {Fore.MAGENTA}(mensaje) (cantidad) {Fore.RED}|{Fore.RESET} Spamea el mensaje introducido en todos los canales
+  {Fore.RESET}[{Fore.RED}3{Fore.RESET}] {Fore.GREEN}&cc {Fore.MAGENTA}(nombre) (cantidad) {Fore.RED}|{Fore.RESET} Crea tantos canales como introducidos con el nombre introducido
+  {Fore.RESET}[{Fore.RED}4{Fore.RESET}] {Fore.GREEN}&nuke {Fore.MAGENTA}(nombre) (cantidad) (mensaje) {Fore.RED}|{Fore.RESET} Usa todos los comandos
+"""
 
 # -------------------------------------------------------------------
 #                              UPDATE
